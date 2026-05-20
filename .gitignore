@@ -1,0 +1,80 @@
+# ==================================
+# Base de datos y configuraciones locales
+# ==================================
+appsettings.Development.json
+# Si usas variables de entorno locales, ignóralas aquí
+.env
+
+# ==================================
+# Archivos de macOS
+# ==================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ==================================
+# Archivos de .NET Core / C#
+# ==================================
+# Carpetas de compilación y resultados
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Archivos específicos de usuario
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Carpetas de Visual Studio / VS Code
+.vs/
+.vscode/
+*.dotCover
+
+# Archivos de caché y paquetes de NuGet
+packages/
+*.nuget.props
+*.nuget.targets
+.nuget/
+project.lock.json
+project.assets.json
+
+# Herramientas de Profiling e Informes
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.coverage
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# ==================================
+# Otros
+# ==================================
+# Node.js (Por si agregas Frontend luego en la misma carpeta)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Mac OS X (adicional)
+*.DS_Store
